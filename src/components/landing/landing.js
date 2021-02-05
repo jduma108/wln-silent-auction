@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './landing.module.css';
-import wlnLogo from '../../assets/wln-logo-colored.png';
+import wlnLogo from '../../assets/wln-logo-color.png';
 
 const Landing = () => (
     <div className={styles.landingWrapper}>

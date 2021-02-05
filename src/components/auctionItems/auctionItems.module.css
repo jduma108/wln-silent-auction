@@ -1,0 +1,62 @@
+.auctionItemsWrapper {
+    display: block;
+    overflow: auto;
+    background-color: #2aa7df;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    padding: 4% 8%;
+}
+
+.auctionItemsWrapper h1 {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.auctionItemsWrapper hr {
+    width: 8%;
+    border: 2px solid white;
+}
+
+.itemContainer {
+    width: 100%;
+    color: white;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 22%;
+    background-color: rgba(255,255,255,0.2);
+    border-radius: 5px;
+    padding: 2%;
+    margin-bottom: 4%;
+    transition: transform .2s
+}
+
+.item:hover {
+    transform: scale(1.1)
+}
+
+.item h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.item p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+.itemPic {
+    width: 60%;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+}

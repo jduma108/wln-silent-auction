@@ -1,0 +1,45 @@
+.organizationsWrapper {
+    font-family: 'Oswald', sans-serif;
+    color: #72cada;
+    text-align: center;
+    padding: 4% 8%;
+}
+
+.organizationsWrapper h1 {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.organizationsWrapper hr {
+    width: 8%;
+    border: 2px solid #72cada;
+}
+
+.organizationsWrapper p {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    margin-top: 4%;
+}
+
+.organizationsContainer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+
+.organization {
+    width: 30%;
+}
+
+.organization h3{
+    font-size: 28px;
+    margin-top: 4%;
+    color: #72cada;
+}
+
+.logo{
+    width: 80%;
+}
