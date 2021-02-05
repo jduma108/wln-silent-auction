@@ -1,0 +1,84 @@
+.howItWorksWrapper {
+    font-family: 'Oswald', sans-serif;
+    color: #2aa7df;
+    text-align: center;
+    padding: 4% 8%;
+}
+
+.howItWorksWrapper h1 {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.howItWorksWrapper hr {
+    width: 8%;
+    border: 2px solid #2aa7df;
+}
+
+.howItWorksWrapper p {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    margin-top: 4%;
+}
+
+.iconWrapper {
+    width: 100%;
+    margin: 4% auto 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.iconWrapper p{
+    font-size: 14px;
+    color: #777777;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20px;
+}
+
+.icon {
+    width: 40%;
+    display: block;
+    margin: auto;
+}
+
+.registerWrapper, .browseWrapper, .bidWrapper {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.learnWrapper {
+    width: 30%;
+}
+
+.registerWrapper h3{
+    font-size: 32px;
+    margin-top: 1%;
+    color: #72cada;
+}
+
+.registerWrapper a {
+    text-decoration: none;
+    color: #72cada;
+}
+
+.browseWrapper h3{
+    font-size: 32px;
+    margin-top: 1%;
+    color: #129d90;
+}
+
+.bidWrapper h3{
+    font-size: 32px;
+    margin-top: 1%;
+    color: #faed20;
+}
+
+.learnWrapper h3{
+    font-size: 32px;
+    margin-top: 1%;
+    color: #2aa7df;
+}

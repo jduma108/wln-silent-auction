@@ -1,0 +1,27 @@
+.landingWrapper {
+    height: 60vh;
+    background-image: url(../../assets/wln-background.png);
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    color: #129d90;
+    padding-left: 5%;
+}
+
+.landingWrapper h1 {
+    font-size: 100px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-top: -20px;
+}
+
+.landingWrapper h2 {
+    font-size: 60px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    margin-top: 2%;
+}
+
+.logo {
+    width: 15%;
+    padding-top: 6%;
+}
