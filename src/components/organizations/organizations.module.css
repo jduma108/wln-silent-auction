@@ -42,4 +42,9 @@
 
 .logo{
     width: 80%;
+    transition: transform 1s;
+}
+
+.logo:hover {
+    transform: scale(1.1)
 }

@@ -4,7 +4,6 @@ import adLogo from '../../assets/ad-logo.png';
 import cfwLogo from '../../assets/cfw-logo.png';
 import vfpLogo from '../../assets/vfp-logo.jpg';
 
-
 const Organizations = () => (
     <div className={styles.organizationsWrapper}>
         <h1>ABOUT THE NON-PROFIT ORGANZATIONS</h1>
@@ -12,15 +11,21 @@ const Organizations = () => (
         <p>Learn more about the non-profit organzations we will be donating too!</p>
         <div className={styles.organizationsContainer}>
             <div className={styles.organization}>
-                <img src={cfwLogo} alt="cfw-logo" className={styles.logo}/>
+                <a href="https://www.cfw.org/" target="_blank" rel="noreferrer">
+                    <img src={cfwLogo} alt="cfw-logo" className={styles.logo}/>
+                </a>
                 <h3>Chicago Foudation for Women</h3>
             </div>
             <div className={styles.organization}>
-                <img src={adLogo} alt="ad-logo" className={styles.logo}/>
+                <a href="https://www.assatasdaughters.org/" target="_blank" rel="noreferrer">
+                    <img src={adLogo} alt="ad-logo" className={styles.logo}/>
+                </a>
                 <h3>Assata's Daughters</h3>
             </div>
             <div className={styles.organization}>
-                <img src={vfpLogo} alt="vfp-logo" className={styles.logo}/>
+                <a href="https://voicesandfaces.org/" target="_blank" rel="noreferrer">
+                    <img src={vfpLogo} alt="vfp-logo" className={styles.logo}/>
+                </a>
                 <h3>The Voices and Faces Project</h3>
             </div>
         </div>

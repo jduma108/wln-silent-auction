@@ -34,7 +34,7 @@
     border-radius: 5px;
     padding: 2%;
     margin-bottom: 4%;
-    transition: transform .2s
+    transition: transform 1s;
 }
 
 .item:hover {

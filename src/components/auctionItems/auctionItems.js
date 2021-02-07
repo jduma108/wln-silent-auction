@@ -37,6 +37,16 @@ const AuctionItems = () => (
                 <h3>ITEM TITLE</h3>
                 <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
+            <div className={styles.item}>
+                <img src={item} alt="item" className={styles.itemPic}/>
+                <h3>ITEM TITLE</h3>
+                <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div className={styles.item}>
+                <img src={item} alt="item" className={styles.itemPic}/>
+                <h3>ITEM TITLE</h3>
+                <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
         </div>
     </div>
 );

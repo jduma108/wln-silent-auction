@@ -31,7 +31,7 @@ const HowItWorks = () => (
                 <p>Learn more about the businesses that donated auction items and the non-profit organizations we will be donating to.</p>
             </div>
         </div>
-        <p>Once the silent auction has closed, the person with the higest bid will be contacted with instructions on how to proceed with payment and where to send the item.</p>
+        <p>Once the silent auction has closed, the person with the higest bid will be contacted with instructions on how to proceed with payment and where to send the item they won.</p>
     </div>
 );
 
