@@ -5,7 +5,7 @@ import wlnLogo from '../../assets/wln-logo-color.png';
 const Footer = () => (
     <div className={styles.footerWrapper}>
         <img className={styles.logo} src={wlnLogo} alt="wln-logo"/>
-        <p>© Chicago WLN Chapter All Right's Reserved 2021</p>
+        <p>© Chicago WLN Chapter All Rights Reserved 2021</p>
     </div>
 );
 
