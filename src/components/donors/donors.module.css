@@ -26,11 +26,24 @@
     border-radius: 5px;
 }
 
+.itemWrapper {
+    width: 800px !important;
+    height: 400px;
+    margin-left: 22% !important;
+}
+
 .itemImg {
-    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    float: left;
 }
 
 .itemDescription {
+    width: 400px;
+    height: 400px;
+    float: left;
+    background-color: rgba(255,255,255,0.2);
+    padding: 6% 4% 0;
     color: white;
 }
 
@@ -52,18 +65,4 @@
 .itemDescription p {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.jenis {
-    width: 26%;
-    position: absolute;
-    top: 56px;
-    left: 650px;
-}
-
-.urbanStore {
-    width: 26%;
-    position: absolute;
-    top: 58px;
-    left: 250px;
 }

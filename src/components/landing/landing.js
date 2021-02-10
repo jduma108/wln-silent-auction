@@ -8,7 +8,7 @@ const Landing = () => (
         <div className={styles.landingWrapper}>
             <img className={styles.logo} src={wlnLogo} alt="wln-logo"/>
             <h2>Women's History Month</h2>
-            <h1>SILENT AUCTION</h1>
+            <h1>AUCTION & RAFFLE</h1>
         </div>
     </Fade>
 );
