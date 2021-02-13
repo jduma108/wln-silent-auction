@@ -25,3 +25,56 @@
     width: 15%;
     padding-top: 6%;
 }
+
+@media screen and (max-width: 1400px) {
+    .landingWrapper {
+        height: 50vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .landingWrapper {
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .landingWrapper {
+        height: 30vh;
+    }
+    .landingWrapper h1 {
+        font-size: 80px;
+    }
+    
+    .landingWrapper h2 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .landingWrapper {
+        height: 25vh;
+    }
+    .landingWrapper h1 {
+        font-size: 60px;
+    }
+    
+    .landingWrapper h2 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .landingWrapper h1 {
+        font-size: 32px;
+        margin-top: 1%;
+    }
+    
+    .landingWrapper h2 {
+        font-size: 20px;
+        margin-top: 4%;
+    }
+    .logo {
+        width: 30%;
+    }
+}

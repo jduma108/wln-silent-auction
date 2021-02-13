@@ -1,8 +1,10 @@
 .donorsWrapper {
+    display: block;
+    overflow: auto;
     font-family: 'Oswald', sans-serif;
-    background-color: #72cada;
+    background-color: #18b0c4;
     text-align: center;
-    padding: 4% 8%;
+    padding: 4% 6%;
 }
 
 .donorsWrapper h1 {
@@ -17,52 +19,51 @@
     border: 2px solid white;
 }
 
-.carouselWrapper {
+.itemWrapper {
     margin-top: 4%;
 }
 
-.carouselWrapper ol li {
-    background-color: #2aa7df;
-    border-radius: 5px;
+.item {
+    width: 100%;
+    transition: transform 1s;
 }
 
-.itemWrapper {
-    width: 800px !important;
-    height: 400px;
-    margin-left: 22% !important;
+.item:hover {
+    transform: scale(1.05)
 }
 
 .itemImg {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     float: left;
+    margin-bottom: 2%;
 }
 
-.itemDescription {
-    width: 400px;
-    height: 400px;
+.itemDescriptionL, .itemDescriptionR {
+    width: 32%;
+    height: 200px;
     float: left;
-    background-color: rgba(255,255,255,0.2);
-    padding: 6% 4% 0;
+    background-color: rgba(255,255,255,0.1);
+    padding: 1.5% 2% 0;
     color: white;
 }
 
-.itemDescription h3 {
-    font-size: 32px;
-    margin-bottom: 3%;
+.itemDescriptionL {
+    margin-right: 2%;
 }
 
-.itemDescription h3 a {
+.itemDescriptionL h3, .itemDescriptionR h3 {
+    font-size: 28px;
+    margin-bottom: 2%;
+}
+
+.itemDescriptionL h3 a, .itemDescriptionR h3 a {
     text-decoration: none;
     color: white;
-    transition: ease 0.5s;
 }
 
-.itemDescription h3 a:hover {
-    color: #2aa7df;
-}
-
-.itemDescription p {
-    font-size: 16px;
+.itemDescriptionL p, .itemDescriptionR p {
+    font-size: 13px;
     font-family: 'Montserrat', sans-serif;
+    text-align: left;
 }

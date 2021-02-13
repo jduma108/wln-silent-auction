@@ -10,7 +10,7 @@ const Organizations = () => (
         <div className={styles.organizationsWrapper}>
             <h1>ABOUT THE NON-PROFIT ORGANZATIONS</h1>
             <hr/>
-            <p>Learn more about the non-profit organzations we will be donating too!</p>
+            <p>Learn more about the non-profit organzations we will be donating to!</p>
             <div className={styles.organizationsContainer}>
                 <div className={styles.organization}>
                     <a href="https://www.cfw.org/" target="_blank" rel="noreferrer">

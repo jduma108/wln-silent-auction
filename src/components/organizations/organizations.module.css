@@ -1,8 +1,8 @@
 .organizationsWrapper {
     font-family: 'Oswald', sans-serif;
-    color: #72cada;
+    color: #18b0c4;
     text-align: center;
-    padding: 4% 8%;
+    padding: 4% 6%;
 }
 
 .organizationsWrapper h1 {
@@ -13,7 +13,7 @@
 
 .organizationsWrapper hr {
     width: 8%;
-    border: 2px solid #72cada;
+    border: 2px solid #18b0c4;
 }
 
 .organizationsWrapper p {
@@ -37,7 +37,7 @@
 .organization h3{
     font-size: 28px;
     margin-top: 4%;
-    color: #72cada;
+    color: #18b0c4;
 }
 
 .logo{
