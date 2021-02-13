@@ -37,11 +37,17 @@
 }
 
 @media screen and (max-width: 500px) {
+    .overviewWrapper {
+        padding: 8% 6%;
+    }
     .overviewWrapper h1 {
         font-size: 36px;
     }
     .overviewWrapper p {
         font-size: 14px;
         line-height: 24px;
+    }
+    .overviewWrapper hr {
+        width: 15%;
     }
 }

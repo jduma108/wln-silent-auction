@@ -41,7 +41,7 @@ const Donors = () => (
                         className={styles.itemImg}
                     />  
                     <div className={styles.itemDescriptionL}>
-                        <h3><a href="#" target="_blank" rel="noreferrer">Sin Titulo</a></h3>
+                        <h3><a href="https://www.sintituloshop.com/" target="_blank" rel="noreferrer">Sin Titulo</a></h3>
                         <p>Need to add</p>
                     </div>
                 </div>

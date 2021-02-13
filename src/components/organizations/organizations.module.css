@@ -48,3 +48,31 @@
 .logo:hover {
     transform: scale(1.1)
 }
+
+@media screen and (max-width: 800px) {
+    .organizationsWrapper h1 {
+        font-size: 48px;
+    }
+    .organization h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .organizationsWrapper {
+        padding: 8% 6%;
+    }
+    .organizationsWrapper h1 {
+        font-size: 32px;
+    }
+    .organizationsWrapper hr {
+        width: 15%;
+    }
+    .organizationsWrapper p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .organization h3{
+        font-size: 16px;
+    }
+}

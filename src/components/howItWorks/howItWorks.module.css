@@ -106,3 +106,80 @@
     width: 100%;
     margin: 2% 0;
 }
+
+@media screen and (max-width: 800px) {
+    .howItWorksWrapper h1 {
+        font-size: 48px;
+    }
+    .iconWrapper {
+        display: block;
+    }
+    .iconWrapper p {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    .registerWrapper h3, .raffleWrapper h3, .learnWrapper h3, .bidWrapper h3 {
+        font-size: 24px;
+    }
+    .registerWrapper, .raffleWrapper {
+        width: 47%;
+        height: 220px;
+        float: left;
+    }
+    .learnWrapper, .bidWrapper {
+        width: 47%;
+        height: 220px;
+        margin-right: 0;
+        float: left;
+    }
+    .icon {
+        width: 20%;
+    }
+    .moreInfoWrapper {
+        clear: both;
+    }
+    .moreInfoWrapper h2{
+        font-size: 28px;
+        padding-top: 1%;
+    }
+    .moreInfoWrapper h3{
+        font-size: 24px;
+    }
+    .moreInfoWrapper ul li{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .howItWorksWrapper {
+        padding: 8% 6%;
+    }
+    .howItWorksWrapper h1 {
+        font-size: 36px;
+    }
+    .howItWorksWrapper hr {
+        width: 15%;
+    }
+    .moreInfoWrapper hr {
+        border: 0.75px solid #2aa7df;
+        width: 100%;
+        margin: 2% 0;
+    }
+    .registerWrapper h3, .raffleWrapper h3, .learnWrapper h3, .bidWrapper h3 {
+        font-size: 20px;
+    }
+    .registerWrapper, .raffleWrapper, .learnWrapper, .bidWrapper {
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .moreInfoWrapper h2{
+        font-size: 24px;
+    }
+    .moreInfoWrapper h3{
+        font-size: 20px;
+    }
+    .moreInfoWrapper ul li{
+        font-size: 14px;
+    }
+}
