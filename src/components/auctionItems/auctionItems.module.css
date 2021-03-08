@@ -43,7 +43,7 @@
 
 .item h3 {
     font-family: 'Oswald', sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     text-align: center;
     margin: 4% 0;
 }
@@ -55,7 +55,7 @@
 }
 
 .itemPic {
-    width: 60%;
+    width: 80%;
     display: block;
     margin: auto;
     border-radius: 5px;

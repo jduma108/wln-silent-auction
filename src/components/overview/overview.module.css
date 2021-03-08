@@ -2,7 +2,6 @@
     background-color: #129d90;
     font-family: 'Oswald', sans-serif;
     color: white;
-    text-align: center;
     padding: 4% 6%;
 }
 
@@ -10,6 +9,7 @@
     font-size: 60px;
     font-weight: 300;
     letter-spacing: 4px;
+    text-align: center;
 }
 
 .overviewWrapper hr {
@@ -21,7 +21,7 @@
     font-size: 24px;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
-    line-height: 40px;
+    line-height: 48px;
     margin-top: 4%;
 }
 

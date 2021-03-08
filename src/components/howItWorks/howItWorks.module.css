@@ -11,7 +11,7 @@
     text-align: center;
 }
 
-.howItWorksWrapper hr {
+.titleHr {
     width: 8%;
     border: 2px solid #2aa7df;
 }
@@ -25,11 +25,17 @@
 }
 
 .iconWrapper p{
-    font-size: 14px;
+    font-size: 15px;
     color: #222222;
     font-family: 'Montserrat', sans-serif;
     line-height: 28px;
     margin-top: 4%;
+}
+
+.fullWidthHr {
+    border: 0.75px solid #2aa7df;
+    width: 100%;
+    margin: 2% 0;
 }
 
 .icon {
@@ -38,7 +44,7 @@
     margin: auto;
 }
 
-.registerWrapper, .raffleWrapper, .bidWrapper {
+.browseWrapper, .raffleWrapper {
     width: 40%;
     margin-right: 3%;
 }
@@ -47,14 +53,9 @@
     width: 40%;
 }
 
-.registerWrapper h3{
+.browseWrapper h3{
     font-size: 32px;
     margin-top: 2%;
-    color: #18b0c4;
-}
-
-.registerWrapper a {
-    text-decoration: none;
     color: #18b0c4;
 }
 
@@ -62,12 +63,6 @@
     font-size: 32px;
     margin-top: 2%;
     color: #129d90;
-}
-
-.bidWrapper h3{
-    font-size: 32px;
-    margin-top: 2%;
-    color: #ead72a;
 }
 
 .learnWrapper h3{
@@ -78,33 +73,28 @@
 
 .moreInfoWrapper {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
-.moreInfoWrapper h2{
+.moreInfoItem {
+    width: 48%;
+}
+
+.moreInfoItem h2{
     font-size: 32px;
     color: #2aa7df;
 }
 
-.moreInfoWrapper h3{
-    font-size: 28px;
-    color: #2aa7df;
-}
-
-.moreInfoWrapper ul {
+.moreInfoItem ul {
     margin-top: 1%;
 }
 
-.moreInfoWrapper ul li{
+.moreInfoItem ul li{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #222222;
     line-height: 32px;
-}
-
-.moreInfoWrapper hr {
-    border: 0.75px solid #2aa7df;
-    width: 100%;
-    margin: 2% 0;
 }
 
 @media screen and (max-width: 800px) {

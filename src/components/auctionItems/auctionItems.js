@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './auctionItems.module.css';
-import item from '../../assets/item.jpg';
 import Fade from 'react-reveal/Fade';
+import auctionItemData from '../../data/auctionItems.json';
 
 const AuctionItems = () => (
     <Fade bottom cascade>
@@ -9,46 +9,15 @@ const AuctionItems = () => (
             <h1>AUCTION ITEMS</h1>
             <hr/>
             <div className={styles.itemContainer}>
-                <div className={styles.item}>
-                    <img src={item} alt="item" className={styles.itemPic}/>
-                    <h3>ITEM TITLE</h3>
-                    <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div className={styles.item}>
-                    <img src={item} alt="item" className={styles.itemPic}/>
-                    <h3>ITEM TITLE</h3>
-                    <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div className={styles.item}>
-                    <img src={item} alt="item" className={styles.itemPic}/>
-                    <h3>ITEM TITLE</h3>
-                    <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div className={styles.item}>
-                    <img src={item} alt="item" className={styles.itemPic}/>
-                    <h3>ITEM TITLE</h3>
-                    <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div className={styles.item}>
-                    <img src={item} alt="item" className={styles.itemPic}/>
-                    <h3>ITEM TITLE</h3>
-                    <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div className={styles.item}>
-                    <img src={item} alt="item" className={styles.itemPic}/>
-                    <h3>ITEM TITLE</h3>
-                    <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div className={styles.item}>
-                    <img src={item} alt="item" className={styles.itemPic}/>
-                    <h3>ITEM TITLE</h3>
-                    <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div className={styles.item}>
-                    <img src={item} alt="item" className={styles.itemPic}/>
-                    <h3>ITEM TITLE</h3>
-                    <p>Item description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
+                {
+                    auctionItemData.map((item) => (
+                        <div className={styles.item}>
+                            <img src={item.itemImage} alt="item" className={styles.itemPic}/>
+                            <h3>{item.itemTitle}</h3>
+                            <p>{item.itemDescription}</p>
+                        </div>
+                    ))
+                }
             </div>
         </div>
     </Fade>
