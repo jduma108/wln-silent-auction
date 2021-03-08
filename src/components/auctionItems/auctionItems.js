@@ -2,6 +2,9 @@ import React from 'react';
 import styles from './auctionItems.module.css';
 import Fade from 'react-reveal/Fade';
 import auctionItemData from '../../data/auctionItems.json';
+import itemPic from '../../assets/item.jpg';
+import babka from '../../assets/babka-baking-kit.png';
+import jenis from '../../assets/jenis-ice-cream.jpg';
 
 const AuctionItems = () => (
     <Fade bottom cascade>
@@ -18,6 +21,11 @@ const AuctionItems = () => (
                         </div>
                     ))
                 }
+            </div>
+            <div className={styles.hiddenImages}>
+                <img src={itemPic} alt="item" className={styles.itemPic}/>
+                <img src={babka} alt="item" className={styles.itemPic}/>
+                <img src={jenis} alt="item" className={styles.itemPic}/>
             </div>
         </div>
     </Fade>

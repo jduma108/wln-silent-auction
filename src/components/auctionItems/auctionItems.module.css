@@ -61,6 +61,10 @@
     border-radius: 5px;
 }
 
+.hiddenImages {
+    display: none;
+}
+
 @media screen and (max-width: 800px) {
     .auctionItemsWrapper h1 {
         font-size: 48px;
