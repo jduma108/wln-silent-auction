@@ -65,6 +65,18 @@
     color: #129d90;
 }
 
+.raffleWrapper a{
+    color: #129d90;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.raffleWrapper a:hover{
+    color: #129d90;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .learnWrapper h3{
     font-size: 32px;
     margin-top: 2%;

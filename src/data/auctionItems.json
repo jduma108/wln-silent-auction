@@ -2,41 +2,91 @@
     {
         "itemTitle": "Masa Madre Babka Baking Kit",
         "itemDescription": "This kit will give you (almost) everything you need to follow along and make two delicious babka loaves at home! Items included: (1) Printed babka recipe, (2) Compostable loaf pans, (3) Wooden rolling pin, (4) Bench scraper, (4) Chocolate filling and (5) Dry ingredients: flour, salt, sugar & dry yeast (You'll just need to add water, eggs & oil).",
-        "itemImage": "/static/media/babka-baking-kit.a33ef3af.png"
-    },
-    {
-        "itemTitle": "Jeni's Ice Cream $50 Gift Card",
-        "itemDescription": "Jeni's ice creams have a uniquely smooth texture and buttercream body, with bright flavor and clean finish. (they don’t use synthetic flavorings, dyes, or off-the-shelf mixes). Thier flavors stand alone straight from the pint or melt perfectly into a fruit pie, birthday cake, crumble, crisp, or cookie—the perfect accessory for your dessert.",
-        "itemImage": "/static/media/jenis-ice-cream.9857266e.jpg"
-    },
-    {
-        "itemTitle": "Sin Titulo Giftbox",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg"
-    },
-    {
-        "itemTitle": "The Chopping Block Cooking Class Gift Certificate",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg"
-    },
-    {
-        "itemTitle": "La Colombe Coffee Gift Set",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg"
+        "itemImage": "/static/media/babka-baking-kit.a33ef3af.png",
+        "deliveryType": "Mail or drop off delievery options."
     },
     {
         "itemTitle": "Hollow Leg Mixology Class Gift Certificate",
         "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg"
+        "itemImage": "/static/media/hollow-leg.56ff6136.png",
+        "deliveryType": "Will be delievered through email."
+    },
+    {
+        "itemTitle": "Sin Titulo Giftbox",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
+    },
+    {
+        "itemTitle": "The Chopping Block Cooking Class Gift Certificate",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/chopping-block.f8c0ae7e.png",
+        "deliveryType": "Will be delievered through email."
+    },
+    {
+        "itemTitle": "La Colombe Coffee Gift Set",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
+    },
+    {
+        "itemTitle": "Jeni's Ice Cream $50 Gift Card",
+        "itemDescription": "Jeni's ice creams have a uniquely smooth texture and buttercream body, with bright flavor and clean finish. (they don’t use synthetic flavorings, dyes, or off-the-shelf mixes). Thier flavors stand alone straight from the pint or melt perfectly into a fruit pie, birthday cake, crumble, crisp, or cookie—the perfect accessory for your dessert.",
+        "itemImage": "/static/media/jenis-ice-cream.9857266e.jpg",
+        "deliveryType": "Mail or drop off delievery options."
     },
     {
         "itemTitle": "Childrens Books",
         "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg"
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
     },
     {
-        "itemTitle": "Urban General Store $25 Gift Card",
+        "itemTitle": "ENJOY an Urban General Store $25 Gift Card",
         "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg"
+        "itemImage": "/static/media/urban-general-store.11c6f3d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
+    },
+    {
+        "itemTitle": "Brewpoint Coffee",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
+    },
+    {
+        "itemTitle": "Harebrained! Board Game",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
+    },
+    {
+        "itemTitle": "HML.Design Print",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
+    },
+    {
+        "itemTitle": "Wine",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Drop off option only."
+    },
+    {
+        "itemTitle": "Granola",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
+    },
+    {
+        "itemTitle": "Stress Relief Care Package",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
+    },
+    {
+        "itemTitle": "35 W Wacker Bee Gift Set",
+        "itemDescription": "Need to add",
+        "itemImage": "/static/media/item.f927f7d1.jpg",
+        "deliveryType": "Mail or drop off delievery options."
     }
 ]

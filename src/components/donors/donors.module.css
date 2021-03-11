@@ -29,7 +29,7 @@
 }
 
 .item:hover {
-    transform: scale(1.05)
+    transform: scale(1.02)
 }
 
 .itemImg {
@@ -40,7 +40,7 @@
 }
 
 .itemDescriptionL, .itemDescriptionR {
-    width: 32%;
+    width: 35.4%;
     height: 200px;
     float: left;
     background-color: rgba(255,255,255,0.1);
@@ -68,16 +68,70 @@
     text-align: left;
 }
 
+@media screen and (max-width: 1670px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 1625px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 34.5%;
+    }
+}
+
+@media screen and (max-width: 1570px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 34%;
+    }
+}
+
+@media screen and (max-width: 1520px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 33.5%;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 1425px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 32.5%;
+    }
+}
+
+@media screen and (max-width: 1425px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 32%;
+    }
+}
+
 @media screen and (max-width: 1340px) {
     .itemDescriptionL, .itemDescriptionR {
-        width: 31%;
+        width: 31.5%;
     }
     .itemDescriptionL p, .itemDescriptionR p {
         font-size: 12px;
     }
 }
 
+@media screen and (max-width: 1300px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 31%;
+    }
+}
+
 @media screen and (max-width: 1270px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 30.5%;
+    }
+}
+
+@media screen and (max-width: 1230px) {
     .itemDescriptionL, .itemDescriptionR {
         width: 30%;
     }
@@ -85,7 +139,7 @@
 
 @media screen and (max-width: 1200px) {
     .itemDescriptionL, .itemDescriptionR {
-        width: 28%;
+        width: 29.5%;
     }
     .itemDescriptionL p, .itemDescriptionR p {
         font-size: 11px;
@@ -95,7 +149,7 @@
     }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1170px) {
     .donorsWrapper h1 {
         font-size: 60px;
     }
@@ -111,7 +165,7 @@
         margin-bottom: 4%;
     }
     .itemDescriptionL p, .itemDescriptionR p {
-        font-size: 13px;
+        font-size: 14px;
     }
     .itemDescriptionL h3, .itemDescriptionR h3 {
         font-size: 28px;
@@ -133,9 +187,6 @@
 @media screen and (max-width: 860px) {
     .itemDescriptionL, .itemDescriptionR {
         width: 74%;
-    }
-    .item:hover {
-        transform: scale(1.02)
     }
 }
 
