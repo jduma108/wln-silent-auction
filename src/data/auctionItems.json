@@ -3,90 +3,105 @@
         "itemTitle": "Masa Madre Babka Baking Kit",
         "itemDescription": "This kit will give you (almost) everything you need to follow along and make two delicious babka loaves at home! Items included: (1) Printed babka recipe, (2) Compostable loaf pans, (3) Wooden rolling pin, (4) Bench scraper, (4) Chocolate filling and (5) Dry ingredients: flour, salt, sugar & dry yeast (You'll just need to add water, eggs & oil).",
         "itemImage": "/static/media/babka-baking-kit.a33ef3af.png",
-        "deliveryType": "Mail or drop off delievery options."
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "masa-madre-babka-kit"
     },
     {
-        "itemTitle": "Hollow Leg Mixology Class Gift Certificate",
-        "itemDescription": "Need to add",
+        "itemTitle": "Hollow Leg Virtual Mixology Class Gift Certificate",
+        "itemDescription": "This $75 Gift Certificate allows you and a plus one to participate in a Virutal Mixology Class 101 Public Class hosted by Devin Kidner, founder of Hollow Leg. This interactive virtual class will introduce you to the art and science of mixology, and allow you to unleash your creativity by understanding the inner-workings of cocktailing, and how to improve any drink according to your palate!",
         "itemImage": "/static/media/hollow-leg.56ff6136.png",
-        "deliveryType": "Will be delievered through email."
+        "deliveryType": "Will be delievered through email.",
+        "altTag": "hollow-leg-gift-certficate"
     },
     {
         "itemTitle": "Sin Titulo Giftbox",
         "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
+        "itemImage": "/static/media/no-image.fa5fb045.png",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "sin-titulo-giftbox"
     },
     {
-        "itemTitle": "The Chopping Block Cooking Class Gift Certificate",
-        "itemDescription": "Need to add",
+        "itemTitle": "The Chopping Block $50 Gift Certificate",
+        "itemDescription": "This $50 Gift Certificate is good towards the purchase of any class, product or service at The Chopping Block. Virtual and in-person cooking classes are available.",
         "itemImage": "/static/media/chopping-block.f8c0ae7e.png",
-        "deliveryType": "Will be delievered through email."
+        "deliveryType": "Will be delievered through email.",
+        "altTag": "the-chopping-block-gift-certficate"
     },
     {
         "itemTitle": "La Colombe Coffee Gift Set",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
+        "itemDescription": "Three box assortment of Light and Medium Roast freshly roasted coffee (Roasted in Chicago!). There are two gift sets available for this item, so two people have the change to win each gift set!",
+        "itemImage": "/static/media/la-colombe-coffee.a2a6454f.png",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "la-colombe-coffee-gift-set"
     },
     {
         "itemTitle": "Jeni's Ice Cream $50 Gift Card",
-        "itemDescription": "Jeni's ice creams have a uniquely smooth texture and buttercream body, with bright flavor and clean finish. (they don’t use synthetic flavorings, dyes, or off-the-shelf mixes). Thier flavors stand alone straight from the pint or melt perfectly into a fruit pie, birthday cake, crumble, crisp, or cookie—the perfect accessory for your dessert.",
-        "itemImage": "/static/media/jenis-ice-cream.9857266e.jpg",
-        "deliveryType": "Mail or drop off delievery options."
+        "itemDescription": "Prepare for warmer weather with a $50 Jeni's Ice Cream gift card! Jeni's ice creams have a uniquely smooth texture and buttercream body, with bright flavor and clean finish. Thier flavors stand alone straight from the pint or melt perfectly into a fruit pie, birthday cake, crumble, crisp, or cookie—the perfect accessory for your dessert.",
+        "itemImage": "/static/media/jenis-giftcard.765658ec.jpg",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "jenis-giftcard"
     },
     {
-        "itemTitle": "Childrens Books",
+        "itemTitle": "Childrens Books Set",
+        "itemDescription": "Donated by the awesome Jamie Grant, this childrens book set includes Mary Wears What She Wants by Keith Negly, Jump at the Sun by Alicia D. Williams and ...",
+        "itemImage": "/static/media/no-image.fa5fb045.png",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "childrens-books"
+    },
+    {
+        "itemTitle": "Girl and the Goat $50 Gift Card",
         "itemDescription": "Need to add",
         "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
-    },
-    {
-        "itemTitle": "ENJOY an Urban General Store $25 Gift Card",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/urban-general-store.11c6f3d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
-    },
-    {
-        "itemTitle": "Brewpoint Coffee",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
-    },
-    {
-        "itemTitle": "Harebrained! Board Game",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "girl-and-the-goat-giftcard"
     },
     {
         "itemTitle": "HML.Design Print",
         "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
+        "itemImage": "/static/media/no-image.fa5fb045.png",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "hml-design-print"
     },
     {
-        "itemTitle": "Wine",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Drop off option only."
+        "itemTitle": "ENJOY an Urban General Store $25 Gift Card",
+        "itemDescription": "A $25 gift card for Chicago-based hip shop with eclectic gifts, toys, books & greeting cards, plus knickknacks for the home & office.",
+        "itemImage": "/static/media/ugs-giftcard.35277dcb.jpg",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "urban-general-store-giftcard"
     },
     {
-        "itemTitle": "Granola",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
+        "itemTitle": "Harebrained! Board Game",
+        "itemDescription": "One copy of the NSFW trivia game, Sh!t For Brains with the 'Merica expansion pack and an enamel pin depicting a Chicago flag-themed beer can.",
+        "itemImage": "/static/media/board-game.9d3d8406.png",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "harebrained-board-game"
     },
     {
-        "itemTitle": "Stress Relief Care Package",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
+        "itemTitle": "Brewpoint Coffee",
+        "itemDescription": "Two bags of Brewpoint Coffee: The Stargazer, locally roasted Dark Roast coffee.",
+        "itemImage": "/static/media/brewpoint-coffee.2431d321.jpg",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "brewpoint-coffee"
+    },
+    {
+        "itemTitle": "Outside Voices Wine",
+        "itemDescription": "Two bottles of Day Wines: Vin de Days Blanc (five white varietals co-fermented in a nod to the winemaking traditions of Alsace) and Lemonade (Pinot noir grapes fermented in a white wine style due to the impact of wildfires).",
+        "itemImage": "/static/media/wine.307a2a4b.png",
+        "deliveryType": "Drop off option only.",
+        "altTag": "outside-voices-wine"
+    },
+    {
+        "itemTitle": "Nilofaar Handcrafted Persian Granola",
+        "itemDescription": "Four bags of Nilofaar Handcrafted Persian trail mix granola. Vegan, Gluten Free, No Added Sugars or Preservatives - Made with Organic Ingredients.",
+        "itemImage": "/static/media/granola.ee16f899.jpg",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "nilofaar-granola"
     },
     {
         "itemTitle": "35 W Wacker Bee Gift Set",
-        "itemDescription": "Need to add",
-        "itemImage": "/static/media/item.f927f7d1.jpg",
-        "deliveryType": "Mail or drop off delievery options."
+        "itemDescription": "Enjoy the following products made from our very own bees from 35 W Wacker, (1) Candle, (1) Jar of Honey, (1) Lip Balm, and (1) Bar of Soap.",
+        "itemImage": "/static/media/no-image.fa5fb045.png",
+        "deliveryType": "Mail or drop off delievery options.",
+        "altTag": "vip-paints-gift-certificate"
     }
 ]

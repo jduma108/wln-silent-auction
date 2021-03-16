@@ -1,42 +1,48 @@
 import React from 'react';
 import styles from './auctionItems.module.css';
-import Fade from 'react-reveal/Fade';
 import auctionItemData from '../../data/auctionItems.json';
-import itemPic from '../../assets/item.jpg';
-import babka from '../../assets/babka-baking-kit.png';
-import jenis from '../../assets/jenis-ice-cream.jpg';
-import hollowLeg from '../../assets/hollow-leg.png';
-import choppingBlock from '../../assets/chopping-block.png';
-import urbanGeneral from '../../assets/urban-general-store.jpg';
+import babka from '../../assets/raffleItems/babka-baking-kit.png';
+import jenis from '../../assets/raffleItems/jenis-giftcard.jpg';
+import hollowLeg from '../../assets/raffleItems/hollow-leg.png';
+import choppingBlock from '../../assets/raffleItems/chopping-block.png';
+import urbanGeneral from '../../assets/raffleItems/ugs-giftcard.jpg';
+import granola from '../../assets/raffleItems/granola.jpg';
+import brewpoint from '../../assets/raffleItems/brewpoint-coffee.jpg';
+import boardGame from '../../assets/raffleItems/board-game.png';
+import laColombeCoffee from '../../assets/raffleItems/la-colombe-coffee.png';
+import wine from '../../assets/raffleItems/wine.png';
+import noImage from '../../assets/no-image.png';
 
 const AuctionItems = () => (
-    <Fade bottom cascade>
-        <div className={styles.auctionItemsWrapper}>
-            <h1>RAFFLE ITEMS</h1>
-            <hr/>
-            <div className={styles.itemContainer}>
-                {
-                    auctionItemData.map((item) => (
-                        <div className={styles.item}>
-                            <img src={item.itemImage} alt="item" className={styles.itemPic}/>
-                            <h3>{item.itemTitle}</h3>
-                            <p>{item.itemDescription}</p>
-                            <p>{item.deliveryType}</p>
-                        </div>
-                    ))
-                }
-            </div>
-            
-            <div className={styles.hiddenImages}>
-                <img src={itemPic} alt="item" className={styles.itemPic}/>
-                <img src={babka} alt="item" className={styles.itemPic}/>
-                <img src={jenis} alt="item" className={styles.itemPic}/>
-                <img src={hollowLeg} alt="item" className={styles.itemPic}/>
-                <img src={choppingBlock} alt="item" className={styles.itemPic}/>
-                <img src={urbanGeneral} alt="item" className={styles.itemPic}/>
-            </div>
+    <div className={styles.auctionItemsWrapper}>
+        <h1>RAFFLE ITEMS</h1>
+        <hr/>
+        <div className={styles.itemContainer}>
+            {
+                auctionItemData.map((item) => (
+                    <div className={styles.item}>
+                        <img src={item.itemImage} alt={item.altTag} className={styles.itemPic}/>
+                        <h3>{item.itemTitle}</h3>
+                        <p>{item.itemDescription}</p>
+                        <p>{item.deliveryType}</p>
+                    </div>
+                ))
+            }
         </div>
-    </Fade>
+        <div className={styles.hiddenImages}>
+            <img src={noImage} alt="item" className={styles.itemPic}/>
+            <img src={babka} alt="item" className={styles.itemPic}/>
+            <img src={hollowLeg} alt="item" className={styles.itemPic}/>
+            <img src={choppingBlock} alt="item" className={styles.itemPic}/>
+            <img src={jenis} alt="item" className={styles.itemPic}/>
+            <img src={urbanGeneral} alt="item" className={styles.itemPic}/>
+            <img src={granola} alt="item" className={styles.itemPic}/>
+            <img src={brewpoint} alt="item" className={styles.itemPic}/>
+            <img src={boardGame} alt="item" className={styles.itemPic}/>
+            <img src={laColombeCoffee} alt="item" className={styles.itemPic}/>
+            <img src={wine} alt="item" className={styles.itemPic}/>
+        </div>
+    </div>
 );
 
 export default AuctionItems;

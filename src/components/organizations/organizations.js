@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './organizations.module.css';
-import adLogo from '../../assets/ad-logo.png';
-import cfwLogo from '../../assets/cfw-logo.png';
-import vfpLogo from '../../assets/vfp-logo.jpg';
+import adLogo from '../../assets/logos/ad-logo.png';
+import cfwLogo from '../../assets/logos/cfw-logo.png';
+import vfpLogo from '../../assets/logos/vfp-logo.jpg';
 import Fade from 'react-reveal/Fade';
 
 const Organizations = () => (
