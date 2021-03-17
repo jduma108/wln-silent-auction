@@ -26,6 +26,16 @@
     margin-top: 2%;
 }
 
+.overviewWrapper a {
+    color: white;
+    transition: ease 1s;
+}
+
+.overviewWrapper a:hover {
+    color: #e6e515;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 1000px) {
     .overviewWrapper p {
         font-size: 20px;

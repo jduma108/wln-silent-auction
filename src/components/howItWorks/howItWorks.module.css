@@ -97,9 +97,16 @@
     width: 25%;
 }
 
-.moreInfoItem h2, .bundles h2{
+.moreInfoItem h2, .bundles h2, .raffleDates {
     font-size: 32px;
     color: #2aa7df;
+}
+
+.raffleDates {
+    font-size: 32px;
+    color: #2aa7df;
+    text-align: center;
+    margin-top: 2%;
 }
 
 .moreInfoItem  ul, .bundles ul {
@@ -164,7 +171,7 @@
         clear: both;
         display: block;
     }
-    .moreInfoWrapper h2{
+    .moreInfoWrapper h2, .raffleDates{
         font-size: 28px;
         padding-top: 1%;
     }
@@ -195,7 +202,7 @@
     .browseWrapper h3, .raffleWrapper h3, .learnWrapper h3 {
         font-size: 20px;
     }
-    .moreInfoWrapper h2{
+    .moreInfoWrapper h2, .raffleDates{
         font-size: 24px;
     }
     .moreInfoWrapper h3{

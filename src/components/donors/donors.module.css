@@ -72,6 +72,12 @@
 .itemDescriptionL h3 a, .itemDescriptionR h3 a {
     text-decoration: none;
     color: white;
+    transition: ease 1s;
+}
+
+.itemDescriptionL h3 a:hover, .itemDescriptionR h3 a:hover {
+    text-decoration: none;
+    color: #e6e515;;
 }
 
 .itemDescriptionL p, .itemDescriptionR p {

@@ -35,7 +35,8 @@ const HowItWorks = () => (
                 <ul>
                     <li>When filling out the a raffle form, you will need to provide your full name, work email, and number of tickets you will purchase for each item</li>
                     <li>You may purchase x amount of tickets and distribute them how you want. For example, if you buy 10 tickets, you can put 5 towards one item and the other 5 towards another item</li>
-                    <li>After filling out the raffle form, please Venmo Leila Choucair <span className={styles.bold}>@Leilac</span></li>
+                    <li>After filling out the raffle form, please Venmo Leila Choucair <span className={styles.bold}>@Leilac</span> and include the following message: <span className={styles.bold}>Chicago WLN Raffle Event 2021 - [insert name]</span></li>
+                    <li>Please make sure the name you enter in the raffle form matches the name you send in your Venmo message</li>
                     <li>When the event has closed, we will randomly pick the winner for each raffle item</li>
                     <li>Winners will be contacted by email about where to send the raffle item</li>
                 </ul>
@@ -51,6 +52,7 @@ const HowItWorks = () => (
                 </ul>
             </div>
         </div>
+        <h2 className={styles.raffleDates}>RAFFLE EVENT OPEN FROM MARCH 22 12:00AM - MARCH 26 11:59PM</h2>
     </div>
 );
 
