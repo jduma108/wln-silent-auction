@@ -6,9 +6,9 @@ import vfpLogo from '../../assets/logos/vfp-logo.jpg';
 
 const Organizations = () => (
     <div className={styles.organizationsWrapper}>
-        <h1>ABOUT THE NON-PROFIT ORGANZATIONS</h1>
+        <h1>ABOUT THE NON-PROFIT ORGANIZATIONS</h1>
         <hr/>
-        <p>Click on each logo to learn more about the non-profit organzations we will be donating to!</p>
+        <p>Click on each logo to learn more about the non-profit organizations we will be donating to!</p>
         <div className={styles.organizationsContainer}>
             <div className={styles.organization}>
                 <a href="https://www.cfw.org/" target="_blank" rel="noreferrer">

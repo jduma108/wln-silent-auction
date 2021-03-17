@@ -23,6 +23,14 @@
     color: white;
 }
 
+.donorsWrapper h4 {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    color: white;
+}
+
 .donorsWrapper hr {
     width: 8%;
     border: 2px solid white;
@@ -119,12 +127,6 @@
     }
 }
 
-@media screen and (max-width: 1170px) {
-    .donorsWrapper h1 {
-        font-size: 60px;
-    }
-}
-
 @media screen and (max-width: 1080px) {
     .itemDescriptionL, .itemDescriptionR {
         width: 78%;
@@ -149,6 +151,9 @@
     }
     .donorsWrapper h1 {
         font-size: 48px;
+    }
+    .donorsWrapper h4 {
+        font-size: 16px;
     }
 }
 
@@ -189,5 +194,8 @@
     }
     .itemDescriptionL, .itemDescriptionR {
         padding: 8%;
+    }
+    .donorsWrapper h4 {
+        font-size: 14px;
     }
 }

@@ -29,13 +29,13 @@ const Donors = () => (
                 />  
                 <div className={styles.itemDescriptionL}>
                     <h3><a href="https://hellomasamadre.com/" target="_blank" rel="noreferrer">Masa Madre</a></h3>
-                    <p>Founded by Tamar and Elena, passionate bakers (and longtime friends) from Mexico City, Masa Madre is an artisanal bakery that blends their Mexican and Jewish heritage with quality ingredients, as well as the most eco-friendly materials for thier packaging.</p>
+                    <p>Founded by Tamar and Elena, passionate bakers (and longtime friends) from Mexico City, Masa Madre is an artisanal bakery that blends their Mexican and Jewish heritage with quality ingredients as well as the most eco-friendly materials for thier packaging.</p>
                 </div>
             </div>
             <div id="hollowLeg" className={styles.item}>
                 <div className={styles.itemDescriptionR}>
                     <h3><a href="https://hollowleg.com/" target="_blank" rel="noreferrer">Hollow Leg</a></h3>
-                    <p>Founded by Devin Kider, Hollow Leg offers cocktail classes for folks who are interested in the art and science behind mixology. Her classes are real life test kitchens where class-goers make customized cocktails tailored to their palate and guided on how to make cocktails with handcrafted bitters/tinctures, and use local, seasonal ingredients we source from local farmers.</p>
+                    <p>Founded by Devin Kidner, Hollow Leg offers cocktail classes for folks who are interested in the art and science behind mixology. Her classes are real-life test kitchens where class-goers make customized cocktails tailored to their palate and guided on how to make cocktails with handcrafted bitters/tinctures, and use local and seasonal ingredients sourced from local farmers.</p>
                 </div>
                 <img
                     src={hollowLeg}
@@ -51,13 +51,13 @@ const Donors = () => (
                 />  
                 <div className={styles.itemDescriptionL}>
                     <h3><a href="https://www.sintituloshop.com/" target="_blank" rel="noreferrer">Sin Titulo</a></h3>
-                    <p>Need to add</p>
+                    <p>Founded by Irais Elizarraraz, Diana Elizarraraz and Itzel Elizarraraz in August 2020, Sin Titulo is a collective of Latinas with a brand objective of curating cultural and social justice designs that they stand behind. They bring authentic, unfiltered, and real designs to the apparel market.</p>
                 </div>
             </div>
             <div id="jenis" className={styles.item}>
                 <div className={styles.itemDescriptionR}>
                     <h3><a href="https://jenis.com/" target="_blank" rel="noreferrer">Jeni's Spendid Ice Creams</a></h3>
-                    <p>Founded by Jeni Britton Bauer, Jeni's Splendid Ice Cream ahead-of-the-trend vision—using whole ingredients and dairy from grass-pastured cows mix—coupled with inspired flavors sparked the artisan ice cream movement more than a decade before it would become a top food trend.</p>
+                    <p>Founded by Jeni Britton Bauer, Jeni's Splendid Ice Cream products use whole ingredients and dairy from grass-pastured cows. Her ahead-of-the-trend vision of using whole ingredients and dairy from grass-pastured cows, rather than synthetic flavorings sparked the artisan ice cream movement more than a decade before it would become a top food trend.</p>
                 </div>
                 <img
                     src={jenis}
@@ -73,13 +73,13 @@ const Donors = () => (
                 />  
                 <div className={styles.itemDescriptionL}>
                     <h3><a href="https://www.lacolombe.com/" target="_blank" rel="noreferrer">La Colombe</a></h3>
-                    <p>Founders Todd Carmichael and J.P. Iberti built La Colombe on a simple but ambitious mission: to make the world better through coffee. What started out as a vision for serving the best coffee to the country, became an opportunity to influence meaningful change around the world. This is how we plan to make a difference.</p>
+                    <p>Founders Todd Carmichael and J.P. Iberti built La Colombe on a simple but ambitious mission: to make the world better through coffee. What started out as a vision for serving the best coffee to the country became an opportunity to influence meaningful change around the world.</p>
                 </div>
             </div>
             <div id="theChoppingBlock" className={styles.item}>
                 <div className={styles.itemDescriptionR}>
                     <h3><a href="https://www.thechoppingblock.com/" target="_blank" rel="noreferrer">The Chopping Block</a></h3>
-                    <p>Founded by Shelly Young, The Chopping Block is a recreational cooking school that combines education and entertainment, as thier staff provides each guest “The Chopping Block Experience.” The company is founded on building communities around food and on providing opportunities and education that support her employees and her customers in living their dreams.</p>
+                    <p>Founded by Shelly Young, The Chopping Block is a recreational cooking school that combines education and entertainment, as their staff provides each guest “The Chopping Block Experience.” The company is founded on building communities around food and providing opportunities and education that support her employees and her customers in living their dreams.</p>
                 </div>
                 <img
                     src={choppingBlock}
@@ -95,13 +95,13 @@ const Donors = () => (
                 />  
                 <div className={styles.itemDescriptionL}>
                     <h3><a href="https://girlandthegoat.com/" target="_blank" rel="noreferrer">Girl & The Goat</a></h3>
-                    <p>Chicago native Stephanie Izard, founded Girl & The Goat in summer of 2010 with the goal of serving a family style menu of tasty, bold flavored foods with global influence in a fun and lively setting that makes our guests feel at home from the moment they walk in the door. </p>
+                    <p>Chicago native Stephanie Izard founded Girl & The Goat in summer of 2010 with the goal of serving a family-style menu of tasty, bold-flavored foods with global influence in a fun and lively setting that makes their guests feel at home from the moment they walk in the door. </p>
                 </div>
             </div>
             <div id="hml" className={styles.item}>
                 <div className={styles.itemDescriptionR}>
                     <h3><a href="https://www.hml.design/" target="_blank" rel="noreferrer">HML</a></h3>
-                    <p>Hailey Losselyong is a self taught visual artist currently based in Chicago.  While her work is displayed on a variety of "canvases", its purpose is to highlight strength and beauty through abstract female portraiture.</p>
+                    <p>Hailey Losselyong is a self-taught visual artist currently based in Chicago.  While her work is displayed on a variety of "canvases", its purpose is to highlight strength and beauty through abstract female portraiture.</p>
                 </div>
                 <img
                     src={hml}
@@ -117,13 +117,13 @@ const Donors = () => (
                 />
                 <div className={styles.itemDescriptionL}>
                     <h3><a href="https://urbangeneralstore.com/" target="_blank" rel="noreferrer">Urban General Store</a></h3>
-                    <p>Founded by Rebecca Wood, Urban General Store is a nod to general stores of the past but updated to meet the needs of today's modern shopper. The site carries a wide variety of fun, functional, inspirational and well-designed items so that all your gift buying can be accomplished at one website.</p>
+                    <p>Founded by Rebecca Wood, Urban General Store is a nod to general stores of the past, but updated to meet the needs of today's modern shopper. The site carries a wide variety of fun, functional, inspirational, and well-designed items so that all your gift buying can be accomplished at one website.</p>
                 </div>
             </div>
             <div id="harebrained" className={styles.item}>
                 <div className={styles.itemDescriptionR}>
                     <h3><a href="https://www.harebraineddesign.com/" target="_blank" rel="noreferrer">Harebrained</a></h3>
-                    <p>Founded by illustrator/designer Anthony Hall in 2008, Harebrained has grown into a Chicago team dedicated to making anything and everything awesome. They are best known for their line of menstrual themed Period Panties, and have recently developed men's and women's "Pundies". In 2017, Harebrained also expanded into the tabletop game market with a NSFW trivia game called Shit For Brains.</p>
+                    <p>Founded by illustrator/designer Anthony Hall in 2008, Harebrained has grown into a Chicago team dedicated to making anything and everything awesome. They are best known for their line of menstrual-themed Period Panties, and have recently developed men's and women's "Pundies". In 2017, Harebrained also expanded into the tabletop game market with a NSFW trivia game called Shit For Brains.</p>
                 </div>
                 <img
                     src={harebrained}
@@ -139,13 +139,13 @@ const Donors = () => (
                 />
                 <div className={styles.itemDescriptionL}>
                     <h3><a href="https://brewpointcoffee.com" target="_blank" rel="noreferrer">Brewpoint Coffee</a></h3>
-                    <p>Founded by Melissa Villanueva, Brewpoint is a coffee company that is building a better world through authentic community spaces. They have three shops in Elmhurst, IL, a growing wholesale company and event spaces - all dedicated to empowering other cafes to make their own community spaces in their neighborhoods.</p>
+                    <p>Founded by Melissa Villanueva, Brewpoint is a coffee company that is building a better world through authentic community spaces. They have three shops in Elmhurst, IL, a growing wholesale company, and event spaces - all dedicated to empowering other cafes to make their own community spaces in their neighborhoods.</p>
                 </div>
             </div>
             <div id="outsideVoices" className={styles.item}>
                 <div className={styles.itemDescriptionR}>
                     <h3><a href="https://www.outsidevoiceswine.com/" target="_blank" rel="noreferrer">Outside Voices</a></h3>
-                    <p>Run by Davis Sayer and Katie Hire, Outside Voices is an eclectic Logan Square wine spot from the team behind Scofflaw, Slippery Slope, The Heavy Feather, and The Moonlighter. Outside Voices offers a cozy indoor space clad with ornate woodwork from Threefold, modern touches, and playful art by Nate Otto.</p>
+                    <p>Run by Davis Sayer and Katie Hire, Outside Voices is an eclectic Logan Square wine spot from the team behind Scofflaw, Slippery Slope, The Heavy Feather, and The Moonlighter. Outside Voices offers a cozy indoor space, clad with ornate woodwork from Threefold, modern touches, and playful art by Nate Otto.</p>
                 </div>
                 <img
                     src={outsideVoices}
@@ -161,13 +161,13 @@ const Donors = () => (
                 />
                 <div className={styles.itemDescriptionL}>
                     <h3><a href="https://www.niloofarmix.com/" target="_blank" rel="noreferrer">Niloofar</a></h3>
-                    <p>Niloofar, founder of her company by the same name, grew up with an Iranian father who loved to cook. Niloofar realized that Persian food was difficult to find in grocery stores and made it her mission to change this, and together with her dad, set out to recreate their family recipes under the brand Niloofar. The company is passionate about bringing Persian cuisine to your home.</p>
+                    <p>Niloofar, founder of her company by the same name, grew up with an Iranian father who loved to cook. Niloofar realized that Persian food was difficult to find in grocery stores and made it her mission to change this. Together with her dad, they set out to recreate their family recipes under the brand Niloofar. The company is passionate about bringing Persian cuisine to your home.</p>
                 </div>
             </div>
             <div id="alveole" className={styles.item}>
                 <div className={styles.itemDescriptionR}>
                     <h3><a href="https://www.alveole.buzz/" target="_blank" rel="noreferrer">Alvéole</a></h3>
-                    <p>At Alvéole, they help businesses, schools, and various organizations meet their engagement and sustainability goals by bringing bees to their building. They provide both a turnkey educational service and an exceptional, meaningful experience. Their goal is to make people fall in love with bees, build ecological awareness, and in time, more sustainable cities and food systems.</p>
+                    <p>Alvéole helps businesses, schools, and various organizations meet their engagement and sustainability goals by bringing bees to their building. They provide both a turnkey educational service and an exceptional, meaningful experience. Their goal is to make people fall in love with bees, build ecological awareness, and in time, more sustainable cities and food systems.</p>
                 </div>
                 <img
                     src={alveole}
@@ -176,6 +176,7 @@ const Donors = () => (
                 />  
             </div>
         </div>
+        <h4>Chicago WLN Raffle Committee Members: Claire Zhang, Irais Elizarraraz, Jillian Duma, Leila Choucair, Megan Biddinger and Taylor Jennings</h4>
     </div>
 );
 

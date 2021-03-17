@@ -14,6 +14,8 @@ import wine from '../../assets/raffleItems/wine.png';
 import noImage from '../../assets/no-image.png';
 import beeGift from '../../assets/raffleItems/bee-gift-set.png';
 import hmlPrints from '../../assets/raffleItems/hml-prints.png';
+import books from '../../assets/raffleItems/books.png';
+import gatg from '../../assets/raffleItems/girl-and-the-goat.jpg';
 
 const AuctionItems = () => (
     <div className={styles.auctionItemsWrapper}>
@@ -47,6 +49,8 @@ const AuctionItems = () => (
             <img src={wine} alt="item" className={styles.itemPic}/>
             <img src={beeGift} alt="item" className={styles.itemPic}/>
             <img src={hmlPrints} alt="item" className={styles.itemPic}/>
+            <img src={books} alt="item" className={styles.itemPic}/>
+            <img src={gatg} alt="item" className={styles.itemPic}/>
         </div>
     </div>
 );

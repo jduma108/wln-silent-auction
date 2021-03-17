@@ -33,8 +33,8 @@ const HowItWorks = () => (
             <div className={styles.moreInfoItem}>
                 <h2>RAFFLE RULES</h2>
                 <ul>
-                    <li>When filling out the a raffle form, you will need to provide your full name, work email and number of tickets you will purchase for each item</li>
-                    <li>You may purchase x amount of tickets and distribute them how you want. For example, if you buy 10 tickets, you can put 5 towards one item and the other 5 towards another item.</li>
+                    <li>When filling out the a raffle form, you will need to provide your full name, work email, and number of tickets you will purchase for each item</li>
+                    <li>You may purchase x amount of tickets and distribute them how you want. For example, if you buy 10 tickets, you can put 5 towards one item and the other 5 towards another item</li>
                     <li>After filling out the raffle form, please Venmo Leila Choucair <span className={styles.bold}>@Leilac</span></li>
                     <li>When the event has closed, we will randomly pick the winner for each raffle item</li>
                     <li>Winners will be contacted by email about where to send the raffle item</li>
