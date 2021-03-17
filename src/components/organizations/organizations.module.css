@@ -35,12 +35,6 @@
     width: 30%;
 }
 
-.organization h3{
-    font-size: 28px;
-    margin-top: 4%;
-    color: #18b0c4;
-}
-
 .logo{
     width: 80%;
     transition: transform 1s;
@@ -54,12 +48,13 @@
     .organizationsWrapper h1 {
         font-size: 48px;
     }
-    .organization h3{
-        font-size: 20px;
-    }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
+    .organizationsContainer {
+        display: block;
+        margin-top: 4%;
+    }
     .organizationsWrapper {
         padding: 8% 6%;
     }
@@ -73,7 +68,10 @@
         font-size: 18px;
         line-height: 24px;
     }
-    .organization h3{
-        font-size: 16px;
+    .organization {
+        display: block;
+        margin: auto;
+        width: 60%;
+        margin-bottom: 4%;
     }
 }

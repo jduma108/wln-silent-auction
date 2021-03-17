@@ -12,6 +12,8 @@ import boardGame from '../../assets/raffleItems/board-game.png';
 import laColombeCoffee from '../../assets/raffleItems/la-colombe-coffee.png';
 import wine from '../../assets/raffleItems/wine.png';
 import noImage from '../../assets/no-image.png';
+import beeGift from '../../assets/raffleItems/bee-gift-set.png';
+import hmlPrints from '../../assets/raffleItems/hml-prints.png';
 
 const AuctionItems = () => (
     <div className={styles.auctionItemsWrapper}>
@@ -21,7 +23,9 @@ const AuctionItems = () => (
             {
                 auctionItemData.map((item) => (
                     <div className={styles.item}>
-                        <img src={item.itemImage} alt={item.altTag} className={styles.itemPic}/>
+                        <a href={item.link} target="_blank" rel="noreferrer">
+                            <img src={item.itemImage} alt={item.altTag} className={styles.itemPic}/>
+                        </a>
                         <h3>{item.itemTitle}</h3>
                         <p>{item.itemDescription}</p>
                         <p>{item.deliveryType}</p>
@@ -41,6 +45,8 @@ const AuctionItems = () => (
             <img src={boardGame} alt="item" className={styles.itemPic}/>
             <img src={laColombeCoffee} alt="item" className={styles.itemPic}/>
             <img src={wine} alt="item" className={styles.itemPic}/>
+            <img src={beeGift} alt="item" className={styles.itemPic}/>
+            <img src={hmlPrints} alt="item" className={styles.itemPic}/>
         </div>
     </div>
 );

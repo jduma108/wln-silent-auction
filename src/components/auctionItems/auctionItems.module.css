@@ -50,7 +50,7 @@
 
 .item p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .itemPic {
@@ -64,6 +64,14 @@
     display: none;
 }
 
+@media screen and (max-width: 1200px) {
+    .item {
+        width: 46%;
+        float: left;
+        margin: 0 2% 4%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     .auctionItemsWrapper h1 {
         font-size: 48px;
@@ -72,26 +80,21 @@
         display: block;
     }
     .item {
-        width: 46%;
-        float: left;
-        margin: 0 2% 4%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .auctionItemsWrapper {
-        padding: 8% 6%;
-    }
-    .auctionItemsWrapper h1 {
-        font-size: 36px;
-    }
-    .auctionItemsWrapper hr {
-        width: 15%;
-    }
-    .item {
         width: 100%;
         clear: both;
         margin: 0 0 6% 0;
         padding: 6%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .auctionItemsWrapper {
+        padding: 8% 6%;
+    }
+    .auctionItemsWrapper h1 {
+        font-size: 32px;
+    }
+    .auctionItemsWrapper hr {
+        width: 15%;
     }
 }

@@ -14,6 +14,15 @@
     color: white;
 }
 
+.donorsWrapper h2 {
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 40px;
+    margin-top: 4%;
+    color: white;
+}
+
 .donorsWrapper hr {
     width: 8%;
     border: 2px solid white;
@@ -25,11 +34,6 @@
 
 .item {
     width: 100%;
-    transition: transform 1s;
-}
-
-.item:hover {
-    transform: scale(1.02)
 }
 
 .itemImg {
@@ -44,7 +48,7 @@
     height: 200px;
     float: left;
     background-color: rgba(255,255,255,0.1);
-    padding: 1.5% 2% 0;
+    padding: 1%;
     color: white;
 }
 
@@ -82,67 +86,33 @@
 
 @media screen and (max-width: 1570px) {
     .itemDescriptionL, .itemDescriptionR {
-        width: 34%;
+        width: 81%;
+        height: 180px;
+        margin: 0 0 2% 0;
+        padding: 2%;
     }
-}
-
-@media screen and (max-width: 1520px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 33.5%;
-    }
-}
-
-@media screen and (max-width: 1470px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 33%;
-    }
-}
-
-@media screen and (max-width: 1425px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 32.5%;
-    }
-}
-
-@media screen and (max-width: 1425px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 32%;
-    }
-}
-
-@media screen and (max-width: 1340px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 31.5%;
+    .itemImg {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 2%;
     }
     .itemDescriptionL p, .itemDescriptionR p {
-        font-size: 12px;
+        font-size: 15px;
     }
-}
-
-@media screen and (max-width: 1300px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 31%;
-    }
-}
-
-@media screen and (max-width: 1270px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 30.5%;
-    }
-}
-
-@media screen and (max-width: 1230px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 30%;
+    .itemDescriptionL h3, .itemDescriptionR h3 {
+        font-size: 28px;
     }
 }
 
 @media screen and (max-width: 1200px) {
     .itemDescriptionL, .itemDescriptionR {
-        width: 29.5%;
+        margin: 0 0 4% 0;
+    }
+    .itemImg {
+        margin-bottom: 4%;
     }
     .itemDescriptionL p, .itemDescriptionR p {
-        font-size: 11px;
+        font-size: 13px;
     }
     .itemDescriptionL h3, .itemDescriptionR h3 {
         font-size: 24px;
@@ -152,23 +122,6 @@
 @media screen and (max-width: 1170px) {
     .donorsWrapper h1 {
         font-size: 60px;
-    }
-    .itemDescriptionL, .itemDescriptionR {
-        width: 81%;
-        height: 180px;
-        margin: 0 0 4% 0;
-        padding: 3%;
-    }
-    .itemImg {
-        width: 180px;
-        height: 180px;
-        margin-bottom: 4%;
-    }
-    .itemDescriptionL p, .itemDescriptionR p {
-        font-size: 14px;
-    }
-    .itemDescriptionL h3, .itemDescriptionR h3 {
-        font-size: 28px;
     }
 }
 
@@ -194,35 +147,24 @@
     .itemDescriptionL, .itemDescriptionR {
         width: 72%;
     }
-}
-
-@media screen and (max-width: 730px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 70%;
+    .donorsWrapper h1 {
+        font-size: 48px;
     }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 750px) {
     .itemDescriptionL, .itemDescriptionR {
-        width: 68%;
+        width: 100%;
+        height: auto;
+        clear: both;
+        margin: 0 0 6% 0;
+        padding: 4% 4% 0 4%;
     }
-}
-
-@media screen and (max-width: 640px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 66%;
+    .itemDescriptionL h3, .itemDescriptionR h3 {
+        margin-bottom: 2%;
     }
-}
-
-@media screen and (max-width: 610px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 64%;
-    }
-}
-
-@media screen and (max-width: 570px) {
-    .itemDescriptionL, .itemDescriptionR {
-        width: 62%;
+    .itemImg {
+        display: none;
     }
 }
 
@@ -237,17 +179,15 @@
     .donorsWrapper hr {
         width: 15%;
     }
-    .itemDescriptionL, .itemDescriptionR {
-        width: 100%;
-        height: auto;
-        clear: both;
-        margin: 0 0 6% 0;
-        padding: 4% 4% 0 4%;
+    .donorsWrapper h2 {
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 10%;
     }
     .itemDescriptionL h3, .itemDescriptionR h3 {
         margin-bottom: 4%;
     }
-    .itemImg {
-        display: none;
+    .itemDescriptionL, .itemDescriptionR {
+        padding: 8%;
     }
 }

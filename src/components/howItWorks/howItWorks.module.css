@@ -3,6 +3,11 @@
     padding: 4% 6%;
 }
 
+.howItWorksWrapper a:hover {
+    text-decoration: none;
+    color: white;
+}
+
 .howItWorksWrapper h1 {
     font-size: 60px;
     font-weight: 300;
@@ -44,12 +49,7 @@
     margin: auto;
 }
 
-.browseWrapper, .raffleWrapper {
-    width: 40%;
-    margin-right: 3%;
-}
-
-.learnWrapper {
+.browseWrapper, .raffleWrapper, .learnWrapper {
     width: 40%;
 }
 
@@ -90,55 +90,79 @@
 }
 
 .moreInfoItem {
-    width: 48%;
+    width: 70%;
 }
 
-.moreInfoItem h2{
+.bundles {
+    width: 25%;
+}
+
+.moreInfoItem h2, .bundles h2{
     font-size: 32px;
     color: #2aa7df;
 }
 
-.moreInfoItem ul {
+.moreInfoItem  ul, .bundles ul {
     margin-top: 1%;
 }
 
-.moreInfoItem ul li{
+.moreInfoItem  ul li, .bundles ul li{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color: #222222;
     line-height: 32px;
 }
 
-@media screen and (max-width: 800px) {
+.button {
+    display: block;
+    margin: 3% auto;
+    background-color: #2aa7df;
+    color: white;
+    font-size: 24px;
+    border-radius: 2px;
+    border: none;
+    padding: 1.5% 4%;
+}
+
+.bold {
+    font-weight: 900;
+    color: #2aa7df;
+}
+
+@media screen and (max-width: 1200px) {
+    .bundles {
+        width: 35%
+    }
+    .moreInfoItem {
+        width: 60%
+    }
+}
+
+@media screen and (max-width: 830px) {
     .howItWorksWrapper h1 {
         font-size: 48px;
     }
     .iconWrapper {
         display: block;
-    }
-    .iconWrapper p {
-        font-size: 14px;
-        line-height: 30px;
-    }
-    .registerWrapper h3, .raffleWrapper h3, .learnWrapper h3, .bidWrapper h3 {
-        font-size: 24px;
-    }
-    .registerWrapper, .raffleWrapper {
-        width: 47%;
-        height: 220px;
-        float: left;
-    }
-    .learnWrapper, .bidWrapper {
-        width: 47%;
-        height: 220px;
-        margin-right: 0;
-        float: left;
+        margin: auto;
     }
     .icon {
         width: 20%;
     }
+    .browseWrapper, .raffleWrapper, .learnWrapper {
+        width: 100%;
+        margin-top: 8%;
+    }
+    .browseWrapper h3, .raffleWrapper h3, .learnWrapper h3 {
+        font-size: 28px;
+    }
+    .iconWrapper p{
+        font-size: 16px;
+        margin-top: 2%;
+    }
     .moreInfoWrapper {
         clear: both;
+        display: block;
     }
     .moreInfoWrapper h2{
         font-size: 28px;
@@ -147,33 +171,29 @@
     .moreInfoWrapper h3{
         font-size: 24px;
     }
-    .moreInfoWrapper ul li{
+    .bundles ul li, .moreInfoItem ul li{
         font-size: 16px;
+    }
+    .bundles, .moreInfoItem {
+        width: 100%;
+    }
+    .button {
+        margin: 6% auto;
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
     .howItWorksWrapper {
         padding: 8% 6%;
     }
     .howItWorksWrapper h1 {
-        font-size: 36px;
+        font-size: 32px;
     }
-    .howItWorksWrapper hr {
+    .titleHr {
         width: 15%;
     }
-    .moreInfoWrapper hr {
-        border: 0.75px solid #2aa7df;
-        width: 100%;
-        margin: 2% 0;
-    }
-    .registerWrapper h3, .raffleWrapper h3, .learnWrapper h3, .bidWrapper h3 {
+    .browseWrapper h3, .raffleWrapper h3, .learnWrapper h3 {
         font-size: 20px;
-    }
-    .registerWrapper, .raffleWrapper, .learnWrapper, .bidWrapper {
-        width: 100%;
-        height: auto;
-        float: none;
     }
     .moreInfoWrapper h2{
         font-size: 24px;
@@ -181,7 +201,16 @@
     .moreInfoWrapper h3{
         font-size: 20px;
     }
-    .moreInfoWrapper ul li{
+    .moreInfoItem ul li, .bundles ul li, .iconWrapper p{
         font-size: 14px;
+    }
+    .button {
+        margin: 8% auto;
+        font-size: 20px;
+    }
+    .fullWidthHr {
+        border: 0.75px solid #2aa7df;
+        width: 100%;
+        margin: 4% 0;
     }
 }

@@ -1,5 +1,5 @@
 .landingWrapper {
-    height: 60vh;
+    height: 55vh;
     background-image: url(../../assets/wln-background.png);
     background-size: cover;
     font-family: 'Oswald', sans-serif;
@@ -32,28 +32,15 @@
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1100px) {
     .landingWrapper {
-        height: 40vh;
-    }
-}
-
-@media screen and (max-width: 1000px) {
-    .landingWrapper {
-        height: 30vh;
-    }
-    .landingWrapper h1 {
-        font-size: 80px;
-    }
-    
-    .landingWrapper h2 {
-        font-size: 48px;
+        height: 45vh;
     }
 }
 
 @media screen and (max-width: 800px) {
     .landingWrapper {
-        height: 25vh;
+        height: 30vh;
     }
     .landingWrapper h1 {
         font-size: 60px;
@@ -64,12 +51,14 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
+    .landingWrapper {
+        height: 25vh;
+    }
     .landingWrapper h1 {
         font-size: 32px;
         margin-top: 1%;
     }
-    
     .landingWrapper h2 {
         font-size: 20px;
         margin-top: 4%;
