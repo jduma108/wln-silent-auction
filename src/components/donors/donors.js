@@ -101,7 +101,7 @@ const Donors = () => (
             <div id="hml" className={styles.item}>
                 <div className={styles.itemDescriptionR}>
                     <h3><a href="https://www.hml.design/" target="_blank" rel="noreferrer">HML</a></h3>
-                    <p>Hailey M. Losselyong is a Chicago-based visual artist who uses a wide variety of “canvases” to display abstract portraits of women. The goal of her art work is to highlight the duality of people while also making them feel good about themselves. The work can be light hearted or heavy, muted or colorful, detailed or simple.</p>
+                    <p>Hailey Losselyong is a self taught visual artist currently based in Chicago.  While her work is displayed on a variety of "canvases", its purpose is to highlight strength and beauty through abstract female portraiture.</p>
                 </div>
                 <img
                     src={hml}
