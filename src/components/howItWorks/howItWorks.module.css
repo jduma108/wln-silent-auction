@@ -120,10 +120,27 @@
     line-height: 32px;
 }
 
+.smallText {
+    font-size: 14px;
+    text-align: center;
+    color: #2aa7df;
+}
+
 .button {
     display: block;
     margin: 3% auto;
     background-color: #2aa7df;
+    color: white;
+    font-size: 24px;
+    border-radius: 2px;
+    border: none;
+    padding: 1.5% 4%;
+}
+
+.disabledButton {
+    display: block;
+    margin: 3% auto 1%;
+    background-color: #D3D3D3;
     color: white;
     font-size: 24px;
     border-radius: 2px;
@@ -184,7 +201,7 @@
     .bundles, .moreInfoItem {
         width: 100%;
     }
-    .button {
+    .button, .disabledButton {
         margin: 6% auto;
     }
 }
@@ -211,7 +228,7 @@
     .moreInfoItem ul li, .bundles ul li, .iconWrapper p{
         font-size: 14px;
     }
-    .button {
+    .button, .disabledButton {
         margin: 8% auto;
         font-size: 20px;
     }
@@ -219,5 +236,8 @@
         border: 0.75px solid #2aa7df;
         width: 100%;
         margin: 4% 0;
+    }
+    .smallText {
+        font-size: 10px;
     }
 }

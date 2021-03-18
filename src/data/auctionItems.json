@@ -9,7 +9,7 @@
     },
     {
         "itemTitle": "Hollow Leg Virtual Mixology Class Gift Certificate",
-        "itemDescription": "This $75 Gift Certificate allows you and a plus one to participate in a Virtual Mixology Class 101 Public Class hosted by Devin Kidner, founder of Hollow Leg. This interactive virtual class will introduce you to the art and science of mixology, and allow you to unleash your creativity by understanding the inner-workings of cocktailing, and how to improve any drink according to your palate!",
+        "itemDescription": "This $75 Gift Certificate allows you and a plus one to participate in a Virtual Mixology Public Class hosted by Devin Kidner, founder of Hollow Leg. This interactive virtual class will introduce you to the art and science of mixology, and allow you to unleash your creativity by understanding the inner-workings of cocktailing, and how to improve any drink according to your palate! Gift certificate never expires.",
         "itemImage": "/static/media/hollow-leg.56ff6136.png",
         "deliveryType": "Will be delivered through email.",
         "altTag": "Hollow Leg Virtual Mixology Class Gift Certificate",
@@ -17,15 +17,15 @@
     },
     {
         "itemTitle": "Sin Titulo Giftbox",
-        "itemDescription": "Details coming soon!",
-        "itemImage": "/static/media/no-image.fa5fb045.png",
+        "itemDescription": "Designed by our very own Irais Elizarraraz, enjoy this gift set from Sin Titulo that includes (1) Purple Tie-dye Crew Neck Sweater and (1) Oreo Colorway Handmade Beanie.",
+        "itemImage": "/static/media/sin-titulo.a580fe98.png",
         "deliveryType": "Mail or drop off delivery options.",
         "altTag": "Sin Titulo Giftbox",
         "link": "https://docs.google.com/forms/d/e/1FAIpQLSfx8z1V9ezb0RvIy1XuTwvKNy8k5rhLT6NwpCPe4ai-I8WKKw/viewform?usp=sf_link"
     },
     {
         "itemTitle": "The Chopping Block $50 Gift Certificate",
-        "itemDescription": "This $50 Gift Certificate is good towards the purchase of any class, product, or service at The Chopping Block. Both virtual and in-person cooking classes are available.",
+        "itemDescription": "This $50 Gift Certificate is good towards the purchase of any class, product, or service at The Chopping Block. Both virtual and in-person cooking classes are available. Gift certificate never expires.",
         "itemImage": "/static/media/chopping-block.f8c0ae7e.png",
         "deliveryType": "Will be delivered through email.",
         "altTag": "The Chopping Block $50 Gift Certificate",
@@ -49,8 +49,8 @@
     },
     {
         "itemTitle": "Children's Books Set",
-        "itemDescription": "Donated by the awesome Jamie and Jacob Grant, this children's book set includes Mary Wears What She Wants by Keith Negly, Jump at the Sun by Alicia D. Williams, and signed copies of Bear Meets Bear and Bear Out There by Jacob Grant.",
-        "itemImage": "/static/media/books.c5badd5e.png",
+        "itemDescription": "Donated by Jamie and Jacob Grant, this children's book set includes Mary Wears What She Wants by Keith Negly, Jump at the Sun by Alicia D. Williams, and signed copies of Bear Meets Bear and Bear Out There by Jacob Grant.",
+        "itemImage": "/static/media/books.94b18de0.png",
         "deliveryType": "Mail or drop off delivery options.",
         "altTag": "Children's Books Set",
         "link": "https://docs.google.com/forms/d/e/1FAIpQLSfx8z1V9ezb0RvIy1XuTwvKNy8k5rhLT6NwpCPe4ai-I8WKKw/viewform?usp=sf_link"
@@ -65,8 +65,8 @@
     },
     {
         "itemTitle": "HML Print Design",
-        "itemDescription": "An 8x10 in Matte Print duo titled 'With Love'. Print designed by the Chicago-based artist Hailey M. Losselyong (retails for $120).",
-        "itemImage": "/static/media/hml-prints.d9384962.png",
+        "itemDescription": "An 8x10 in Matte Print titled 'With Love'. Print designed by the Chicago-based artist Hailey M. Losselyong (retails for $120). There are two prints available for this item, so two people have the chance to win each print!",
+        "itemImage": "/static/media/hml-prints.a85ea075.png",
         "deliveryType": "Mail or drop off delivery options.",
         "altTag": "HML Print Design",
         "link": "https://docs.google.com/forms/d/e/1FAIpQLSfx8z1V9ezb0RvIy1XuTwvKNy8k5rhLT6NwpCPe4ai-I8WKKw/viewform?usp=sf_link"

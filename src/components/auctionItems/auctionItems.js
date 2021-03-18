@@ -16,6 +16,7 @@ import beeGift from '../../assets/raffleItems/bee-gift-set.png';
 import hmlPrints from '../../assets/raffleItems/hml-prints.png';
 import books from '../../assets/raffleItems/books.png';
 import gatg from '../../assets/raffleItems/girl-and-the-goat.jpg';
+import sinTitulo from '../../assets/raffleItems/sin-titulo.png';
 
 const AuctionItems = () => (
     <div className={styles.auctionItemsWrapper}>
@@ -36,6 +37,7 @@ const AuctionItems = () => (
             }
         </div>
         <div className={styles.hiddenImages}>
+            <img src={sinTitulo} alt="item" className={styles.itemPic}/>
             <img src={noImage} alt="item" className={styles.itemPic}/>
             <img src={babka} alt="item" className={styles.itemPic}/>
             <img src={hollowLeg} alt="item" className={styles.itemPic}/>
@@ -52,6 +54,8 @@ const AuctionItems = () => (
             <img src={books} alt="item" className={styles.itemPic}/>
             <img src={gatg} alt="item" className={styles.itemPic}/>
             <img src={books} alt="item" className={styles.itemPic}/>
+            <img src={books} alt="item" className={styles.itemPic}/>
+            <img src={hmlPrints} alt="item" className={styles.itemPic}/>
         </div>
     </div>
 );
