@@ -52,7 +52,7 @@
 }
 
 .itemDescriptionL, .itemDescriptionR {
-    width: 35.4%;
+    width: 35.3%;
     height: 200px;
     float: left;
     background-color: rgba(255,255,255,0.1);
@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 1570px) {
     .itemDescriptionL, .itemDescriptionR {
-        width: 81%;
+        width: 82%;
         height: 180px;
         margin: 0 0 2% 0;
         padding: 2%;
@@ -130,6 +130,12 @@
     }
     .itemDescriptionL h3, .itemDescriptionR h3 {
         font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 1145px) {
+    .itemDescriptionL, .itemDescriptionR {
+        width: 80%;
     }
 }
 

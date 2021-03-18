@@ -51,6 +51,7 @@ const AuctionItems = () => (
             <img src={hmlPrints} alt="item" className={styles.itemPic}/>
             <img src={books} alt="item" className={styles.itemPic}/>
             <img src={gatg} alt="item" className={styles.itemPic}/>
+            <img src={books} alt="item" className={styles.itemPic}/>
         </div>
     </div>
 );
