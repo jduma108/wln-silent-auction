@@ -25,11 +25,11 @@ const HowItWorks = () => (
                 <p>Learn more about the businesses that donated raffle items and the non-profit organizations we will be donating to.</p>
             </div>
         </div>
-        {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx8z1V9ezb0RvIy1XuTwvKNy8k5rhLT6NwpCPe4ai-I8WKKw/viewform?usp=sf_link" rel="noreferrer" target="_blank">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfx8z1V9ezb0RvIy1XuTwvKNy8k5rhLT6NwpCPe4ai-I8WKKw/viewform?usp=sf_link" rel="noreferrer" target="_blank">
             <button className={styles.button}>CLICK HERE TO BUY TICKETS</button>
-        </a> */}
-        <button className={styles.disabledButton} disabled>CLICK HERE TO BUY TICKETS</button>
-        <p className={styles.smallText}>Button will be enabled when the event opens on March 22</p>
+        </a>
+        {/* <button className={styles.disabledButton} disabled>CLICK HERE TO BUY TICKETS</button>
+        <p className={styles.smallText}>Button will be enabled when the event opens on March 22</p> */}
         <hr className={styles.fullWidthHr}/>
         <div className={styles.moreInfoWrapper}>
             <div className={styles.moreInfoItem}>
